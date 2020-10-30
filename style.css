@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
@@ -12,6 +13,7 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     background-color: white;
+    font-family: "Arial Narrow", serif;
 }
 
 header img {
@@ -38,6 +40,10 @@ nav a {
 nav a:hover {
     background-color: gold;
     cursor: pointer;
+}
+
+.active {
+    background-color: gold;
 }
 
 @media (max-width:800px) {
@@ -72,12 +78,13 @@ article h1 {
 }
 
 article img {
-    float: top;
+    float: none;
     margin: 10px 10px;
     padding: 10px;
     width: 15%;
     border-radius: 50%;
     border: 10px solid gold;
+
 }
 
 article p {
@@ -93,7 +100,7 @@ iframe {
 
 footer {
     height: 40px;
-    background-color: black;
+    background-color: gold;
     color: white;
     line-height: 40px;
     text-align: center;
